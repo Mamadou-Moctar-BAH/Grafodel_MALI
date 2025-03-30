@@ -1,0 +1,111 @@
+/* Style pour la ligne d'informations supplémentaires */
+.navbar-top {
+  background-color: #31572c;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Style de la navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #31572c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-img {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #333333 !important;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #f6ae2d !important;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Style pour les éléments du dropdown */
+.dropdown-menu {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #333333;
+  padding: 10px 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #31572c;
+  color: #ffffff;
+}
+
+/* Style pour le bouton "Donateur/Partenaire" */
+.btn-donate {
+  background-color: #f6ae2d !important;
+
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-donate:hover,
+.btn-donate:focus {
+  background-color: #31572c !important;
+  text-decoration: none;
+}
+
+/* Style global pour le container */
+.Container {
+  padding: 20px;
+  background-color: #333;  /* Fond sombre pour contraster avec le texte clair */
+  color: #fff;
+}
+
+/* Alignement et espacement des éléments */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style pour la section contenant les informations de contact */
+.d-flex > div {
+  font-size: 14px;  /* Taille du texte */
+  color: #fff;  /* Couleur de texte clair */
+}
+
+@media (max-width: 768px) {
+ 
+  
+  .btn-donate {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-top span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .nav-link {
+    font-size: 14px;
+  }
+}
