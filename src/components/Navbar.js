@@ -120,7 +120,7 @@ function NavbarComponent() {
                 className="nav-link"
                 onClick={handleNavLinkClick}
               >
-                Rejoignez-nous
+                Carrière
               </Nav.Link>
               <Nav.Link
                 as={Link}
@@ -128,7 +128,7 @@ function NavbarComponent() {
                 className="nav-link btn-donate"
                 onClick={handleNavLinkClick}
               >
-                Partenaire/ Donateur
+                Rejoignez-nous
               </Nav.Link>
               <Nav.Link
                 as={Link}
