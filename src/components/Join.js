@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 
 const JobOffer = () => {
   return (
@@ -25,11 +25,11 @@ const JobOffer = () => {
             </li>
             <li>
               Appuyer l’identification et la coordination des nouvelles
-              initiatives par thématiques{" "}
+              initiatives par thématiques
             </li>
             <li>
               Appuyer le processus de positionnement stratégique de GRAFODEL
-              auprès des bailleurs/partenaires nationaux et internationaux{" "}
+              auprès des bailleurs/partenaires nationaux et internationaux
             </li>
             <li>
               Appuyer la direction exécutive dans les actions de plaidoyer
@@ -50,15 +50,15 @@ const JobOffer = () => {
             </li>
             <li>
               Appuyer la formation continue du personnel pour le développement
-              de ses compétences{" "}
+              de ses compétences
             </li>
             <li>
               Appuyer toute initiative tendant à améliorer les stratégies
-              d’interventions de GRAFODEL-Mali{" "}
+              d’interventions de GRAFODEL-Mali
             </li>
             <li>
               Défendre les idées et les positions de l’organisation partout où
-              le besoin se pose{" "}
+              le besoin se pose
             </li>
             <li>
               Appuyer GRAFODEL-Mali dans l’élaboration des nouvelles politiques
@@ -89,14 +89,16 @@ const JobOffer = () => {
             humanitaire en pause professionnelle est vivement sollicitée
           </p>
           <h4>Compétences et Qualités :</h4>
-          <li>
-            Excellentes compétences en mobilisation des fonds et la négociation
-            avec les bailleurs
-          </li>
-          <li>Capacité d’analyse et de prise de décision </li>
-          <li>Compétences en formation des adultes </li>
-          <li>Bonne moralité </li>
-          <li>Bonne capacité d’écoute et d’esprit d’équipe</li>
+          <ul>
+            <li>
+              Excellentes compétences en mobilisation des fonds et la
+              négociation avec les bailleurs
+            </li>
+            <li>Capacité d’analyse et de prise de décision</li>
+            <li>Compétences en formation des adultes</li>
+            <li>Bonne moralité</li>
+            <li>Bonne capacité d’écoute et d’esprit d’équipe</li>
+          </ul>
           <h4>Documents à fournir :</h4>
           <p>
             Un CV bien détaillé, une Lettre de Motivation adressée au Directeur
@@ -104,13 +106,23 @@ const JobOffer = () => {
             référence.
           </p>
           <p>
-            <strong>Envoyez vos candidatures :</strong>{" "}
+            <strong>Envoyez vos candidatures :</strong>
             <a href="mailto:grafodelmali11@gmail.com">
+              {" "}
               grafodelmali11@gmail.com
             </a>
             et en cc
-            <a href="mailto:ladjibah7777@gmail.com">ladjibah7777@gmail.com</a>
+            <a href="mailto:ladjibah7777@gmail.com"> ladjibah7777@gmail.com</a>
           </p>
+          <div className="text-center mt-4">
+            <Button
+              variant="success"
+              href="https://forms.gle/62Wu35cZR8uRNNLs9"
+              target="_blank"
+            >
+              Postuler
+            </Button>
+          </div>
         </Card.Body>
       </Card>
     </div>
